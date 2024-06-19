@@ -19,7 +19,10 @@ pip install --upgrade --quiet langchain-community langchain-openai neo4j
 * Set your OpenAI API key and Neo4j credentials as environment variables: 
 
 os.environ["OPENAI_API_KEY"] = "your_openai_api_key"
+
 os.environ["NEO4J_URI"] = "your_neo4j_uri"
+
 os.environ["NEO4J_USERNAME"] = "your_neo4j_username"
+
 os.environ["NEO4J_PASSWORD"] = "your_neo4j_password"
 
