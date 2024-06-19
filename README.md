@@ -1,5 +1,8 @@
 This Jupyter Notebook demonstrates the integration of a Knowledge Graph (KG) with Large Language Models (LLMs) like GPT-4. It utilizes the Neo4j database, LangChain library, and the OpenAI API to answer queries based on the data stored in the Knowledge Graph.
 
+## Important Note
+The knowledge graph we create is going to consist of incorrect information. This is to ensure that the LLM is using data from the knowledge graph to answer, and the answer does not come from the data it is pretrained on. (If the LLM is able to generate answers with the incorrect information, it means that the LLM is deriving knowledge from the graphs successfully.)
+
 ### Prerequisites
 Before running this notebook, ensure that you have the following:
 
